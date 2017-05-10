@@ -80,3 +80,37 @@ $hash.ContainsValue("v1")
 $hash.Keys
 $hash.Values
 ```
+
+## 4. Program Flow
+```
+$var=2
+if($var -eq 1){
+}
+else{
+}
+```
+
+#### 03:01 switch
+```
+switch($var){
+  1{"a";break}
+  2{}
+  default{}
+}
+```
+
+#### 08:25
+```
+switch -caseinsensitive ("sHell")
+{
+  "shell"{}
+  "sHell"{}
+}
+```
+```
+switch -Wildcard (""){
+}
+```
+
+
+## 5. Reusing Code with Functions and Modules
